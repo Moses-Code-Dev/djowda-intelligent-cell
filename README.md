@@ -18,6 +18,7 @@ The **Djowda Intelligent Cell (DIC)** is a core structural unit within the Djowd
 
 ---
 
+<a name="how-it-works"></a>
 ## 🧭 How It Works
 
 The Djowda Intelligent Cell (DIC) is designed for modularity and autonomous operation. Here's a breakdown of its core functionality:
@@ -37,6 +38,7 @@ This structure allows each DIC to act as a self-contained intelligent node that 
 
 ---
 
+<a name="inside-a-dic-key-layers"></a>
 ## 🔄 Inside a DIC: Key Layers
 
 - **MinMax99 Integration** – Defines exact location identity and neighboring Cells
@@ -50,6 +52,7 @@ This structure allows each DIC to act as a self-contained intelligent node that 
 
 ---
 
+<a name="visual-dic-in-the-minmax99-fabric"></a>
 ## 📊 Visual: DIC in the MinMax99 Fabric
 
 ![Anatomy of a Djowda Intelligent Cell](assets/dic-architecture.png)
@@ -58,6 +61,7 @@ _Above: A single DIC embedded in the MinMax99 Grid, showing the data flow from l
 
 ---
 
+<a name="getting-started"></a>
 ## 🚀 Getting Started
 
 Currently, the Djowda Intelligent Cell project is in an early stage of development. Here's how you can begin to explore and engage with it:
@@ -75,6 +79,7 @@ Currently, the Djowda Intelligent Cell project is in an early stage of developme
 
 ---
 
+<a name="use-cases-decentralized-intelligence-in-action"></a>
 ## 🔬 Use Cases: Decentralized Intelligence in Action
 
 DICs are designed to be versatile. While a self-aware local store is a primary example, the architecture supports a variety of applications:
@@ -96,6 +101,7 @@ The core idea is to enable any component within a DIC to leverage the LRS cycle 
 
 ---
 
+<a name="testing-roadmap"></a>
 ## 🧪 Testing Roadmap
 
 - **Phase 1**: Single-Cell behavior and LRS simulation
@@ -106,6 +112,7 @@ More in [`docs/phase-testing.md`](docs/phase-testing.md)
 
 ---
 
+<a name="future-work--roadmap"></a>
 ## 🗺️ Future Work & Roadmap
 
 Beyond the initial [Testing Roadmap](#-testing-roadmap), our vision for the Djowda Intelligent Cell project includes:
@@ -128,6 +135,7 @@ This roadmap is subject to change and will evolve as the project progresses and 
 
 ---
 
+<a name="contributing"></a>
 ## 🤝 Contributing
 
 We welcome contributions to the Djowda Intelligent Cell project! As we are in the early stages, the best way to contribute right now is to:
@@ -145,6 +153,7 @@ Please note that by contributing, you agree that your contributions will be lice
 
 ---
 
+<a name="related-projects"></a>
 ## 🧩 Related Projects
 
 - [MinMax99 Algorithm](https://github.com/Moses-Code-Dev/minMax99)
@@ -152,6 +161,7 @@ Please note that by contributing, you agree that your contributions will be lice
 
 ---
 
+<a name="license"></a>
 ## ⚖️ License
 
 This project uses a [custom non-commercial license](LICENSE) for social impact and nonprofit innovation.
