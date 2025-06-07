@@ -66,4 +66,4 @@ More in [`docs/phase-testing.md`](docs/phase-testing.md)
 
 ## ⚖️ License
 
-This project uses a [custom non-commercial license](LICENSE.md) for social impact and nonprofit innovation.
+This project uses a [custom non-commercial license](LICENSE) for social impact and nonprofit innovation.
