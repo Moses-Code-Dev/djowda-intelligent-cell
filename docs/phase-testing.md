@@ -1,3 +1,7 @@
+**Overall Goal:** To verify that a Djowda Intelligent Cell (DIC) correctly ingests data (Learn), processes and stores it with appropriate versioning (Remember), and disseminates relevant information (Share), both individually and in interaction with other cells.
+
+---
+
 **Phase 1: Single Cell LRS Validation (Unit & Integration Testing on Android)**
 
 **Objective:** Ensure the LRS cycle functions correctly within a single, isolated Android application instance representing one DIC.
