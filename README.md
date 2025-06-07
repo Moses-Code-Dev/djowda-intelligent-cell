@@ -59,7 +59,7 @@ More in [`docs/phase-testing.md`](docs/phase-testing.md)
 
 ## 🧩 Related Projects
 
-- [MinMax99 Algorithm](https://github.com/YOUR_USERNAME/minmax99)
+- [MinMax99 Algorithm](https://github.com/Moses-Code-Dev/minMax99)
 - Djowda Ecosystem Components (coming soon)
 
 ---
