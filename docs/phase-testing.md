@@ -13,6 +13,7 @@
 - [Future Considerations / Advanced Strategies](#future-considerations--advanced-strategies)
 
 ---
+<a name="overall-goal"></a>
 ## Definitions & Conventions
 - **DIC (Djowda Intelligent Cell):** An Android app instance representing an autonomous node in the ecosystem.
 - **LRS Cycle:** Learn (ingest data), Remember (store/process), Share (publish).
@@ -22,11 +23,11 @@
 - **CID:** Content Identifier returned by Web3.Storage after upload.
 
 ---
-<a name="overall-goal"></a>
+<a name="definitions--conventions"></a>
 **Overall Goal:** To verify that a Djowda Intelligent Cell (DIC) correctly ingests data (Learn), processes and stores it with appropriate versioning (Remember), and disseminates relevant information (Share), both individually and in interaction with other cells.
 
 ---
-
+<a name="phase-1-single-cell-lrs-validation"></a>
 **Phase 1: Single Cell LRS Validation (Unit & Integration Testing on Android)**
 
 **Objective:** Ensure the LRS cycle functions correctly within a single, isolated Android application instance representing one DIC.
@@ -121,7 +122,7 @@
     *   **Why:** Prepares the system for real-world scenarios where multiple triggers can occur concurrently, ensuring data integrity and operational stability.
 
 ---
-
+<a name="phase-2-basic-multi-cell-interaction"></a>
 **Phase 2: Basic Multi-Cell Interaction (2-3 Android Instances)**
 
 **Objective:** Test data propagation and consistency between a few interacting DICs within a simulated Lobby structure.
@@ -187,7 +188,7 @@
     *   **Why:** Ensures system robustness against accidental or malicious data downgrades and enables smarter sync diagnostics in decentralized environments.
 
 ---
-
+<a name="phase-3-stress--scalability-considerations"></a>
 **Phase 3: Stress & Scalability Considerations (Simulated)**
 
 **Objective:** Get an early indication of how the system might behave under more load (this will likely require more than just Android app instances).
@@ -226,7 +227,7 @@
 ---
 
 **Tools & Metrics:**
-
+<a name="tools--metrics"></a>
 *   **Tools:** Android Studio (Debugger, Profiler, Logcat), MQTT Explorer (or similar MQTT client), Web3.Storage dashboard/API.
 *   **Metrics:**
     *   Successful L/R/S operations vs. failures.
@@ -238,7 +239,7 @@
     *   Error rates and types.
 
 ---
-
+<a name="general-enhancements"></a>
 **General Enhancements**
 
 To improve testability, debugging, and overall robustness of the DIC ecosystem during development and testing:
@@ -262,6 +263,7 @@ To improve testability, debugging, and overall robustness of the DIC ecosystem d
     *   **Suggestion:** Make these logs easily exportable or accessible for analysis during testing.
 
 ---
+<a name="future-considerations--advanced-strategies"></a>
 **Future Considerations / Advanced Strategies**
 
 As the DIC platform matures, the following areas of testing will become increasingly important:
