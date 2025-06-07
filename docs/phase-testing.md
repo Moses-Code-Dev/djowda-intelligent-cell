@@ -22,6 +22,7 @@
 - **CID:** Content Identifier returned by Web3.Storage after upload.
 
 ---
+<a name="overall-goal"></a>
 **Overall Goal:** To verify that a Djowda Intelligent Cell (DIC) correctly ingests data (Learn), processes and stores it with appropriate versioning (Remember), and disseminates relevant information (Share), both individually and in interaction with other cells.
 
 ---
